@@ -1,0 +1,40 @@
+.navbarWrapper{
+    position: absolute;
+    width: 100%;
+    margin:0 auto;
+    background: transparent;
+    z-index: 10;
+}
+.navbar{
+    max-width: 1240px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem auto 0 auto;
+    padding: 0 20px;
+}
+.logo{
+    width:100px;
+}
+a{
+text-decoration: none;
+color:white;
+text-decoration: underline;
+}
+
+.navbarList{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbarList > li{
+     list-style: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.navbarList > li :hover{
+    text-decoration: none;
+    color:white;
+}

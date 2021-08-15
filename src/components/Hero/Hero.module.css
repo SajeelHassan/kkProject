@@ -1,0 +1,7 @@
+.carousel {
+    background-color: #FF9696;
+    background-image: url('../../assets/images/header/main-bkg.png');
+    background-size: cover;
+    background-position: center;
+    height: 746px;
+}
