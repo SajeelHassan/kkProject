@@ -11,22 +11,41 @@ const Hero = () => {
     return (<>
         <Navbar />
         <Carousel className={clsx(classes.carousel)} controls={false}>
-            <Carousel.Item interval={5000}>
-                <img className="d-block "
-                    src={cImage1}
-                    alt="First slide" />
+            <Carousel.Item >
+                <div className={classes.carouselDiv}>
+                    <img className="d-block "
+                        src={cImage1}
+                        alt="Company Tagline" />
+                    <p>
+                        Providing you <span>solutions</span> for your <span>digital marketing</span> assets and fulfilling the necessities of your <span>digital platforms</span>
+                    </p>
+                </div>
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
-                <img
-                    className="d-block "
-                    src={cImage2}
-                    alt="Second slide" />
+            <Carousel.Item >
+                <div className={classes.carouselDiv}>
+                    <img
+                        className="d-block "
+                        src={cImage2}
+                        alt="Services" />
+                    <ul>
+                        <li>GRAPHIC DESIGNING</li>
+                        <li>PHOTOGRAPHY</li>
+                        <li>CONTENT WRITING</li>
+                        <li>MEDIA BUYING</li>
+                        <li>SEO TOOLS</li>
+                        <li>ANIMATIONS</li>
+                    </ul>
+                </div>
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
-                <img
-                    className="d-block "
-                    src={cImage3}
-                    alt="Third slide" />
+            <Carousel.Item >
+                <div className={classes.carouselDiv}>
+                    <img
+                        className="d-block "
+                        src={cImage3}
+                        alt="KK Industries" />
+                    <div className={classes.verticalLine}></div>
+                    <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform </p>
+                </div>
             </Carousel.Item>
         </Carousel>
     </>

@@ -5,3 +5,32 @@
     background-position: center;
     height: 746px;
 }
+
+
+.carouselDiv{
+    height: 43.75rem;
+    display: flex;
+    max-width:1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    
+}
+.carouselDiv > img{
+    max-width:400px;
+    max-height: 400px;
+}
+.carouselDiv p {
+    width:43.75rem;
+    color:white;
+    font-size: 2.25rem;
+
+}
+.carouselDiv p > span{
+    font-size: 4rem;
+}
+.verticalLine{
+      border-left: 2px solid white;
+  height: 200px;
+  padding-left: 20px;
+}
