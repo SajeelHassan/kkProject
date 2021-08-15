@@ -1,0 +1,37 @@
+
+.sectionInfo{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+.line{
+    border-top: 3.5px solid black;
+    max-width: 600px;
+    margin: 3.75rem auto 3.75rem auto;
+  
+}
+.background{
+    max-width:1200px;
+    
+    background-image: url('../../assets/images/kkgroup/bkg.png');
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+
+
+}
+.sectionCarousel{
+    /* max-width: 1200px; */
+    margin: 0 auto 3.75rem auto;
+
+}
+.carouselImage >img{
+    width:6.25rem;
+    position: relative;
+    left:20%;
+
+}
