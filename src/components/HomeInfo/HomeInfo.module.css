@@ -1,0 +1,28 @@
+.sectionWrapper{
+    max-width: 78.75rem;
+    margin:0 auto;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+.sectionsTitle{
+    font-size: 30px;
+    font-weight: 700;
+
+} 
+.sectionsInfo{
+    max-width: 600px;
+}
+.sectionsImg {
+    width: 26.25rem;
+}
+.sectionSections{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sectionSections:nth-child(2){
+    flex-direction: row-reverse;
+}
