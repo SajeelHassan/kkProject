@@ -24,6 +24,9 @@
     width:43.75rem;
     color:white;
     font-size: 2.25rem;
+    opacity: 0.1;
+    transform: translateY(50%);
+    transition: 1s;
 
 }
 .carouselDiv p > span{
@@ -31,6 +34,38 @@
 }
 .verticalLine{
       border-left: 2px solid white;
-  height: 200px;
-  padding-left: 20px;
+  height: 12.5rem;
+  padding-left: 1.25rem;
+}
+.heroUL{
+    margin-top: 5rem;
+    width:43.75rem;
+    align-self:center;
+    position: relative;
+}
+.heroUL > li {
+    color:white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin:60px auto;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+
+}
+.heroUL > li:nth-child(2){
+    left:calc(4.375rem*1.5);
+}
+.heroUL > li:nth-child(3){
+    left:calc(8.75rem*1.5);
+}
+.heroUL > li:nth-child(4){
+    left:calc(13.125rem*1.5);
+}
+.heroUL > li:nth-child(5){
+    left:calc(17.5rem*1.5);
+}
+.heroUL > li:nth-child(6){
+    left:calc(21.875rem*1.5);
 }
