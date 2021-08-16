@@ -36,6 +36,11 @@ const KKGroupSection = () => {
                     </Carousel>
                 </div>
             </div>
+            <div className={classes.kkGroup}>
+                <p className={classes.kkGroupTitle}> <span>KK</span> GROUP</p>
+                <div className={classes.horizontalLine} />
+                <p className={classes.kkGroupInfo}>K.K. Rice Mills (Pvt.) Limited was founded with a clear objective to attain and maintain perfection in rice processing, exporting aiming to providing its customers complete satisfaction. K.K. Rice Mills (Pvt.) Limited is managing its name in the leading rice exporters directory almost since the beginning.</p>
+            </div>
         </div>
     )
 }
