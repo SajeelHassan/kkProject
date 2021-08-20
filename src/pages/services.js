@@ -6,13 +6,10 @@ import KKGroupSection from "../components/KKGroupSection/KKGroupSection"
 import OurClients from "../components/OurClients/OurClients"
 import ServicesSection from "../components/SevicesCards/ServicesSection"
 
-export default function Home() {
-  return <>
-    <Hero />
-    <KKGroupSection />
-    <OurClients />
-    <HomeInfo />
-    <ServicesSection />
-    <Footer />
-  </>
+export default function Services() {
+    return <>
+        <Hero />
+        <ServicesSection />
+        <Footer />
+    </>
 }

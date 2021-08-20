@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import '../../assets/css/global.css';
 import * as  classes from './Navbar.module.css';
 import navbarLogo from '../../assets/images/header/logo.png'
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 const NavbarMain = () => {
 
     return (
