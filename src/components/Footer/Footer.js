@@ -5,10 +5,11 @@ import logo from '../../assets/images/header/logo.png';
 import facebook from '../../assets/images/social/fb.png';
 import instagram from '../../assets/images/social/in.png';
 import twitter from '../../assets/images/social/tw.png';
+const backToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 const Footer = () => {
-    const backToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+
     return (<>
         <div className={classes.section}>
             <div className={classes.sectionWrapper}>
@@ -34,12 +35,12 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className={classes.copyrightSection}>
+        {/* <div className={classes.copyrightSection}>
             <div className={classes.sectionWrapperCopyright}>
                 <p>Copyright © 2021 KK Group All rights reserved.</p>
                 <button onClick={backToTop}>Back to Top</button>
             </div>
-        </div>
+        </div> */}
     </>)
 
 }

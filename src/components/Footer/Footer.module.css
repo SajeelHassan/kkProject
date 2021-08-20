@@ -21,7 +21,7 @@
 }
 
 .logoTag > img {
-    width: 140px;
+    max-width: 140px;
 }
 .logoTag > p{
     font-weight: 700;
@@ -61,11 +61,12 @@
     text-decoration: underline;
 }
 .copyrightSection{
-    height: 7vh;
+    height: 5vh;
     color: white;
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
+    
 }
 .sectionWrapperCopyright{
     width: 77.5rem;
@@ -82,4 +83,22 @@
     color: white;
     outline: none;
     border: none;
+}
+@media (max-width:800px){
+    .section{
+        width: unset;
+        height: unset;
+        padding-bottom: 1.25rem;
+    }
+    .sectionWrapper{
+   flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+}
+.logoTag > p{
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    margin: auto;
+}
 }

@@ -1,0 +1,26 @@
+.sectionWrapper{
+    max-width: 77.5rem;
+    padding: 0 1.25rem;
+    margin: 3.75rem auto;
+    
+}
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.teamMembers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.teamMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamMember > img {
+    width:12.5rem;
+    margin-bottom: 1.25rem;
+}

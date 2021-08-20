@@ -1,0 +1,72 @@
+.sectionWrapper{
+    max-width: 77.5rem;
+    padding:0 1.25rem;
+    margin: 3.75rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title {
+    font-size: 2.5rem;
+
+}
+.description {
+    font-size: 1.5rem;
+}
+.formWrap {
+    width: 43.75rem;
+}
+.formWrap > div {
+    margin:1.875rem auto;
+}
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+}
+.inputDiv input {
+    padding:0.625rem 0.75rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+}
+.inputDiv textarea {
+    height: 11.25rem;
+    padding:0.625rem 0.75rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.082);
+}
+.inputDiv label {
+    margin-bottom: 0.3125rem;
+}
+.nameInputs{
+    display: flex;
+    justify-content: space-between;
+}
+.nameInputs input {
+    max-width: 100%;
+    width: 20rem;
+}
+.submitBtn {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width:9.375rem;
+    height: 2.5rem;
+    /* padding:1.25rem; */
+    background-color: rgba(156, 57, 57,0.3);
+    color:black;
+    opacity: 0.5;
+    border-radius: 4.375rem;
+    transition: all 0.3s ease-in-out;
+}
+.submitBtn span {
+    margin: 0 0 0.1875rem 0.1875rem;
+}
+.submitBtn:hover {
+    color: white;
+    opacity:1;
+    background-color: rgba(220, 0, 0, 0.76);
+
+}
