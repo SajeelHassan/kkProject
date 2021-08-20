@@ -1,6 +1,6 @@
 .sectionWrapper{
     max-width: 78.75rem;
-    margin:0 auto;
+    margin:3.75rem auto;
     padding-right: 1.875rem;
     padding-left: 1.875rem;
 }
@@ -17,7 +17,7 @@
     
 }
 .sectionSections{
-    margin-top: 1.25rem;
+    margin-top: 20px;
     margin-bottom: 1.25rem;
     display: flex;
     justify-content: space-between;

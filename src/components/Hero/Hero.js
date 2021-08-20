@@ -52,7 +52,7 @@ const Hero = () => {
                             className="d-block "
                             src={cImage3}
                             alt="KK Industries" />
-                        <div className={classes.verticalLine}></div>
+                        <div className={classes.verticalLine} />
                         <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform </p>
                     </div>
                 </div>

@@ -17,3 +17,15 @@
 .ourClientsCarousel .carousel-indicators  button.active {
     opacity: 1 !important;
 }
+.navbar-toggler {
+    z-index: 100;
+}
+
+.navbar-collapse.collapsing ,.navbar-collapse.collapse.show{
+    position: absolute !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    width: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    text-align: center !important;
+}

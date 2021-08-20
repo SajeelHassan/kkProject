@@ -11,9 +11,10 @@
     align-items: center;
 }
 .carouselDiv{
-    max-width:77.5rem;
+    width:77.5rem;
     padding: 0 20px;
     display: flex;
+    /* background-color: aqua; */
     justify-content: space-between;
     align-items: center;
     margin:0 auto;
@@ -23,25 +24,28 @@
     max-width:400px;
     max-height: 400px;
 }
-.carouselDiv p {
+.carouselDiv > p {
+   
     max-width:43.75rem;
     color:white;
     font-size: 2.25rem;
     opacity: 0.1;
     transform: translateY(50%);
     transition: 1s;
+     /* margin-right: 0;
+    margin-left: auto; */
 
 }
 .carouselDiv p > span{
     font-size: 4rem;
 }
 .verticalLine{
-      border-left: 2px solid white;
-  height: 12.5rem;
-  padding-left: 1.25rem;
+      border-right: 2px solid white;
+        height: 12.5rem;
+  margin: 1.5625rem;
 }
 .heroUL{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     width:43.75rem;
     align-self:center;
     position: relative;
@@ -75,7 +79,6 @@
 
 @media (max-width:1260px){
     .carouselDiv{
-    
     justify-content: space-around;
 }
 .carouselDiv > img{
@@ -116,11 +119,10 @@
 }
 }
 
+@media (max-width:1060px){
+    
+}
 @media (max-width:700px){
-    .carouselDiv{
-        
-
-    }
     .carouselDiv > img{
     max-width:230px;
     max-height: 230px;
@@ -168,5 +170,8 @@
 }
 .carouselDivWrap{
     height: 33.75rem;
+}
+.carouselDiv:nth-child(1){
+    margin-top: 3rem;
 }
 }

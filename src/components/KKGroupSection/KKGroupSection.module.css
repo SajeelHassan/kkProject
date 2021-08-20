@@ -129,7 +129,9 @@
 .carouselImage > img {
     width: 330px;
 }
-}
+.kkGroup{
+    margin: 0 auto;
+}}
 @media (max-width:540px){
 .carouselImage > img {
     width: 300px;

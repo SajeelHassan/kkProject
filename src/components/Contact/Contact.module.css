@@ -70,3 +70,31 @@
     background-color: rgba(220, 0, 0, 0.76);
 
 }
+@media (max-width:748px){
+    .formWrap {
+    width: 500px;
+}
+.nameInputs input {
+    max-width: 100%;
+    width: 240px;
+}
+}
+@media (max-width:530px){
+    .formWrap {
+    width: 400px;
+}
+.nameInputs{
+    flex-direction: column;
+}
+.nameInputs input {
+    width: 100%;
+}
+.nameInputs input:nth-child(2){
+    margin-top: 10px;
+}
+}
+@media (max-width:425px){
+    .formWrap {
+    max-width: 300px;
+}
+}

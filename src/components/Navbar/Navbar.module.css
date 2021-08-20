@@ -40,3 +40,12 @@ text-decoration: underline;
     text-decoration: none;
     color:white;
 }
+@media (max-width:576px){
+    .navbarList{
+        display: unset;
+    }
+    .navbarList > li {
+        display: block;
+        margin-bottom: 0.3125rem;
+    }
+}

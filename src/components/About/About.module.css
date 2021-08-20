@@ -11,3 +11,11 @@
 .description {
     font-size: 1.5rem;
 }
+
+@media (max-width:1200px){
+    .description{
+    font-size: 1.2rem;
+    }
+}
+
+

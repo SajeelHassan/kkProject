@@ -9,7 +9,9 @@ import ServicesSection from "../components/SevicesCards/ServicesSection"
 export default function Services() {
     return <>
         <Hero />
-
+        <div style={{ maxWidth: '1200px', margin: '200px auto', textAlign: 'center', fontSize: '40px', fontWeight: 'bold' }}>
+            Under Construction
+        </div>
         <Footer />
     </>
 }
