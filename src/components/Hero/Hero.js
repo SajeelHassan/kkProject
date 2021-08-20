@@ -13,7 +13,7 @@ import Navbar from '../Navbar/Navbar';
 const Hero = () => {
 
     return (<>
-        {/* <Navbar /> */}
+        <Navbar />
         <Carousel className={clsx(classes.carousel)} controls={false}>
             <Carousel.Item interval={3000}>
                 <div className={classes.carouselDivWrap}>

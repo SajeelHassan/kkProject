@@ -95,10 +95,23 @@
    justify-content: space-around;
     align-items: center;
 }
+
 .logoTag > p{
     font-weight: 700;
     font-style: italic;
     color: white;
+    margin-left: 0;
     margin: auto;
+}
+}
+
+@media (max-width:520px){
+    .sectionWrapper > div {
+    width: unset;
+    
+}
+    .logoTag{
+    flex-direction: column;
+    margin-bottom: 1.25rem;
 }
 }
