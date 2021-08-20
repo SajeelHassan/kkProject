@@ -8,8 +8,8 @@ import ServicesSection from "../components/SevicesCards/ServicesSection"
 
 export default function Services() {
     return <>
-        <Hero />
-        <ServicesSection />
+
+
         <Footer />
     </>
 }

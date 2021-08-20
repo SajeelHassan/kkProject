@@ -1,0 +1,13 @@
+.sectionWrapper{
+    max-width: 77.5rem;
+    padding:0 1.25rem;
+    text-align: center;
+    margin: 60px auto;
+
+}
+.title {
+    font-size: 2.5rem;
+}
+.description {
+    font-size: 1.5rem;
+}

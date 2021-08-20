@@ -1,15 +1,12 @@
 import React from "react"
 import Footer from "../components/Footer/Footer"
 import Hero from "../components/Hero/Hero"
-import HomeInfo from "../components/HomeInfo/HomeInfo"
-import KKGroupSection from "../components/KKGroupSection/KKGroupSection"
-import OurClients from "../components/OurClients/OurClients"
-import ServicesSection from "../components/SevicesCards/ServicesSection"
+import AboutUs from "../components/About/About"
 
 export default function About() {
     return <>
         <Hero />
-        <HomeInfo />
+        <AboutUs />
         <Footer />
     </>
 }

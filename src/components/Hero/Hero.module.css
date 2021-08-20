@@ -3,14 +3,14 @@
     background-image: url('../../assets/images/header/main-bkg.png');
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 46.75rem;
 }
 
 
 .carouselDiv{
     max-width:77.5rem;
     height: 43.75rem;
-    padding: 0 1.25rem;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
