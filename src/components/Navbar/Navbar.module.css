@@ -6,11 +6,11 @@
     z-index: 10;
 }
 .navbar{
-    max-width: 1240px;
+    width: 1240px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin:2rem auto 0 auto;
+    margin:0 auto;
     padding: 0 20px;
 }
 .logo{
@@ -21,8 +21,10 @@ text-decoration: none;
 color:white;
 text-decoration: underline;
 }
-
 .navbarList{
+    position: relative;
+    margin-left: auto; 
+    margin-right: 0;
     width: 300px;
     display: flex;
     justify-content: space-between;

@@ -13,7 +13,8 @@
     max-width: 600px;
 }
 .sectionsImg {
-    width: 26.25rem;
+    max-width: 420px;
+    
 }
 .sectionSections{
     margin-top: 1.25rem;

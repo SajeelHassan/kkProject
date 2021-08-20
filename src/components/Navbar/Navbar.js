@@ -3,20 +3,23 @@ import { Link } from 'gatsby';
 import '../../assets/css/global.css';
 import * as  classes from './Navbar.module.css';
 import navbarLogo from '../../assets/images/header/logo.png'
-const Navbar = () => {
+import { Navbar, Nav, Container } from 'react-bootstrap';
+const NavbarMain = () => {
 
-    return <>
-        <div className={classes.navbarWrapper}>
+    return (
+        <Navbar collapseOnSelect expand="sm" bg="transparent" variant="dark" className={classes.navbarWrapper}>
             <div className={classes.navbar}>
-                <img src={navbarLogo} className={classes.logo} alt='KK Marketing' />
-                <ul className={classes.navbarList}>
-                    <li><Link to='#'>HOME</Link></li>
-                    <li><Link to='#'>SERVICES</Link></li>
-                    <li><Link to='#'>ABOUT US</Link></li>
-                </ul>
+                <Navbar.Brand ><Link to='/'> <img src={navbarLogo} className={classes.logo} alt='KK Marketing' /></Link></Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" >
+                    <ul className={classes.navbarList}>
+                        <li><Link to='/'>HOME</Link></li>
+                        <li><Link to='/services'>SERVICES</Link></li>
+                        <li><Link to='/about-us'>ABOUT US</Link></li>
+                    </ul>
+                </Navbar.Collapse>
             </div>
-        </div>
-    </>
+        </Navbar>)
 }
 
-export default Navbar;
+export default NavbarMain;

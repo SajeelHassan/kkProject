@@ -1,0 +1,48 @@
+.sectionWrapper{
+    max-width: 77.5rem;
+    padding: 0 1.25rem;
+    margin: 6.25rem auto;
+
+}
+.sectionInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+.sectionCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bgGreenish{
+    background-color: #85F1D1;
+}
+.bgBluish{
+    background-color: #CCF6FF;
+}
+.bgGrayish{
+    background-color: #E3E3E3;
+}
+.bgPinkish{
+background-color: #FFC1F1;
+}
+.bgBrownish{
+    background-color:#D2D2D2 ;
+} 
+.bgOrangish {
+    background-color: #FFC2C2;
+}
+.bgYellowish{
+    background-color:  rgba(252, 255, 122, 0.4);
+}
+
+.bgBluish2{
+    background-color: #B4FFFB;
+} 
+.bgPurplish{
+    background-color: #D0D7F1;
+}
