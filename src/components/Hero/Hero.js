@@ -13,42 +13,48 @@ import Navbar from '../Navbar/Navbar';
 const Hero = () => {
 
     return (<>
-        <Navbar />
+        {/* <Navbar /> */}
         <Carousel className={clsx(classes.carousel)} controls={false}>
             <Carousel.Item interval={3000}>
-                <div className={classes.carouselDiv}>
-                    <img className="d-block "
-                        src={cImage1}
-                        alt="Company Tagline" />
-                    <p>
-                        Providing you <span>solutions</span> for your <span>digital marketing</span> assets and fulfilling the necessities of your <span>digital platforms</span>
-                    </p>
+                <div className={classes.carouselDivWrap}>
+                    <div className={classes.carouselDiv}>
+                        <img className="d-block "
+                            src={cImage1}
+                            alt="Company Tagline" />
+                        <p>
+                            Providing you <span>solutions</span> for your <span>digital marketing</span> assets and fulfilling the necessities of your <span>digital platforms</span>
+                        </p>
+                    </div>
                 </div>
             </Carousel.Item>
             <Carousel.Item interval={2000} >
-                <div className={classes.carouselDiv}>
-                    <img
-                        className="d-block "
-                        src={cImage2}
-                        alt="Services" />
-                    <ul className={classes.heroUL}>
-                        <li>GRAPHIC DESIGNING</li>
-                        <li>PHOTOGRAPHY</li>
-                        <li>CONTENT WRITING</li>
-                        <li>MEDIA BUYING</li>
-                        <li>SEO TOOLS</li>
-                        <li>ANIMATIONS</li>
-                    </ul>
+                <div className={classes.carouselDivWrap}>
+                    <div className={classes.carouselDiv}>
+                        <img
+                            className="d-block "
+                            src={cImage2}
+                            alt="Services" />
+                        <ul className={classes.heroUL}>
+                            <li>GRAPHIC DESIGNING</li>
+                            <li>PHOTOGRAPHY</li>
+                            <li>CONTENT WRITING</li>
+                            <li>MEDIA BUYING</li>
+                            <li>SEO TOOLS</li>
+                            <li>ANIMATIONS</li>
+                        </ul>
+                    </div>
                 </div>
             </Carousel.Item>
             <Carousel.Item interval={2000} >
-                <div className={classes.carouselDiv}>
-                    <img
-                        className="d-block "
-                        src={cImage3}
-                        alt="KK Industries" />
-                    <div className={classes.verticalLine}></div>
-                    <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform </p>
+                <div className={classes.carouselDivWrap}>
+                    <div className={classes.carouselDiv}>
+                        <img
+                            className="d-block "
+                            src={cImage3}
+                            alt="KK Industries" />
+                        <div className={classes.verticalLine}></div>
+                        <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform </p>
+                    </div>
                 </div>
             </Carousel.Item>
         </Carousel>

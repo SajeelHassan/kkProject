@@ -9,7 +9,7 @@ const OurClients = () => {
         <div className={classes.sectionInfo}>
             <p className={classes.sectionTitle}>Our Clients</p>
             <div className={classes.sectionCarousel}>
-                <Carousel controls={false} className='ourClientsCarousel' pause={false} interval={2000}>
+                {/* <Carousel controls={false} className='ourClientsCarousel' pause={false} interval={2000}>
                     <Carousel.Item>
                         <div className={classes.carouselInfo}>
                             <img src={clientLogo1}></img>
@@ -34,7 +34,7 @@ const OurClients = () => {
                             <img src={clientLogo3}></img>
                         </div>
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
             </div>
         </div>
     </div>

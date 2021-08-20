@@ -3,13 +3,15 @@
     background-image: url('../../assets/images/header/main-bkg.png');
     background-size: cover;
     background-position: center;
-    /* height: 46.75rem; */
 }
 
-
+.carouselDivWrap{
+    height: 43.75rem;
+    display: flex;
+    align-items: center;
+}
 .carouselDiv{
     max-width:77.5rem;
-    height: 43.75rem;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,7 @@
     max-height: 400px;
 }
 .carouselDiv p {
-    width:43.75rem;
+    max-width:43.75rem;
     color:white;
     font-size: 2.25rem;
     opacity: 0.1;
@@ -69,4 +71,102 @@
 }
 .heroUL > li:nth-child(6){
     left:calc(21.875rem*1.5);
+}
+
+@media (max-width:1260px){
+    .carouselDiv{
+    
+    justify-content: space-around;
+}
+.carouselDiv > img{
+    max-width:300px;
+    max-height: 300px;
+}
+.heroUL > li:nth-child(2){
+    left:calc(4.375rem*0.4);
+}
+.heroUL > li:nth-child(3){
+    left:calc(8.75rem*0.4);
+}
+.heroUL > li:nth-child(4){
+    left:calc(13.125rem*0.4);
+}
+.heroUL > li:nth-child(5){
+    left:calc(17.5rem*0.4);
+}
+.heroUL > li:nth-child(6){
+    left:calc(21.875rem*0.4);
+}
+.carouselDiv p {
+    max-width:43.75rem;
+    font-size: 1.5rem;
+    
+
+}
+.carouselDiv p > span{
+    font-size: 2rem;
+}
+.heroUL{
+    width: unset;
+    margin-right: 30px;
+}
+.heroUL > li {
+    font-size: 1rem;
+    margin:30px auto;
+}
+}
+
+@media (max-width:700px){
+    .carouselDiv{
+        
+
+    }
+    .carouselDiv > img{
+    max-width:230px;
+    max-height: 230px;
+}
+    .heroUL > li:nth-child(2){
+    left:0;
+}
+.heroUL > li:nth-child(3){
+    left:0;
+}
+.heroUL > li:nth-child(4){
+    left:0;
+}
+.heroUL > li:nth-child(5){
+    left:0;
+}
+.heroUL > li:nth-child(6){
+    left:0;
+}
+.carouselDiv p {
+    max-width:33.75rem;
+    font-size: 1rem;
+    
+
+}
+.carouselDiv p > span{
+    font-size: 1.5rem;
+}
+}
+@media(max-width:575px){
+    .carouselDiv{
+        flex-direction: column;
+        text-align: center;
+    }
+    .verticalLine{
+        display: none;
+    }
+    .heroUL{
+        margin-top: 0.625rem;
+    }
+    .heroUL > li {
+    font-size: 0.8rem;
+    margin:0.3125rem auto;
+    text-align: left;
+}
+.carouselDivWrap{
+    height: 33.75rem;
+}
 }

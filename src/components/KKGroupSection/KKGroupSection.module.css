@@ -71,3 +71,83 @@
 .kkGroupInfo{
     font-size: 1.5rem;
 }
+@media (max-width:1200px) {
+    .sectionInfo{
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sectionInfo > img {
+    width: 250px;
+}
+    .sectionInfo p {
+    font-size: 1.2rem;
+    max-width:35rem;
+
+}
+.kkGroupInfo{
+    font-size: 1.2rem;
+}
+.line{
+    border-top: 2.5px solid black;
+    max-width: 400px;
+    margin: 3rem auto 3rem auto;
+  
+}
+}
+@media (max-width:900px) {
+    .sectionInfo{
+        flex-direction: column;
+    
+    
+}
+.sectionInfo > img {
+    width: 250px;
+}
+    .sectionInfo p {
+    font-size: 1.2rem;
+    max-width:35rem;
+
+}
+.kkGroupInfo{
+    font-size: 1.2rem;
+}
+.line{
+    border-top: 2px solid black;
+    max-width: 300px;
+    margin: 2rem auto 2rem auto;
+  
+}
+}
+
+@media (max-width:720px){
+.carouselImage > img {
+    width: 380px;
+}
+}
+@media (max-width:620px){
+.carouselImage > img {
+    width: 330px;
+}
+}
+@media (max-width:540px){
+.carouselImage > img {
+    width: 300px;
+}
+.line{
+    border-top: 1.5px solid black;
+    max-width: 200px;
+    margin: 1rem auto 1rem auto;
+  
+}
+}
+@media (max-width:460px){
+.carouselImage > img {
+    width: 260px;
+}
+}
+@media (max-width:365px){
+.carouselImage > img {
+    width: 200px;
+}
+}
