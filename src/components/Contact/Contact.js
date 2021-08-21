@@ -7,7 +7,8 @@ const ContactForm = () => {
     return (
         <div className={classes.sectionWrapper}>
             <p className={classes.title}>Contact Us</p>
-            <form id='contact-form' className={classes.formWrap} method='post' data-netlify="true">
+            <form id='contact-form' name='contact-us-form' className={classes.formWrap} method='post' data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact-us-form" />
                 <div className={clsx(classes.nameDiv, classes.inputDiv)}>
                     <label for='your-name'>YOUR NAME:</label>
                     <div className={classes.nameInputs}>
