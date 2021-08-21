@@ -13,5 +13,12 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: "KK Marketing | KK Group",
+    description: "Your All in one KK Marketing agency will make you stand out among the potential competitors with the marketing strategies you need.",
+    url: "https://www.kkmarketing.pk", // No trailing slash allowed!
+    image: "/images/logo.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@kkmarketing_pk",
+  },
 
 }

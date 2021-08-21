@@ -5,9 +5,11 @@ import * as  classes from './Navbar.module.css';
 import navbarLogo from '../../assets/images/header/logo.png'
 import { Navbar } from 'react-bootstrap';
 import clsx from 'clsx';
+import SEO from '../seo';
 const NavbarMain = (props) => {
 
-    return (
+    return (<>
+        <SEO />
         <Navbar collapseOnSelect expand="sm" bg="transparent" variant="dark" className={clsx(classes.navbarWrapper, props.class)}>
             <div className={classes.navbar}>
                 <Navbar.Brand ><Link to='/'> <img src={navbarLogo} className={classes.logo} alt='KK Marketing' /></Link></Navbar.Brand>
@@ -20,7 +22,7 @@ const NavbarMain = (props) => {
                     </ul>
                 </Navbar.Collapse>
             </div>
-        </Navbar>)
+        </Navbar></>)
 }
 
 export default NavbarMain;
