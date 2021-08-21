@@ -25,9 +25,9 @@ const KKGroupSection = () => {
             <div className={classes.sectionCarousel}>
                 <div className={classes.background}>
                     <Carousel indicators={false} pause={false} controls={false}>
-                        {CAROUSEL_IMGS.map((imgSrc) => {
+                        {CAROUSEL_IMGS.map((imgSrc, index) => {
                             return (
-                                <Carousel.Item className={classes.carouselItem} interval={1000}>
+                                <Carousel.Item className={classes.carouselItem} interval={1000} key={index}>
                                     <div className={classes.carouselImage}>
                                         <img src={imgSrc} alt={imgSrc} />
                                     </div>
