@@ -1,0 +1,85 @@
+.cardModalWrapper{
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.cardModal{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+.modalContent{
+    padding: 1.25rem;
+    height: 300px;
+    background-image: url('../../assets/images/modal/modalbkg.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    color:white;
+    text-align: center;
+
+}
+.modalTitleAndImage{
+    display:flex;
+    align-items: center;
+}
+.modalTitleAndImage > img{
+    width: 5.625rem;
+    margin: 0 0.625rem;
+}
+
+.modalDescription{
+    font-size: 1.2rem;
+}
+.modalTitle{
+    font-size:1.5rem;
+    font-weight: bold;
+    
+}
+@media (max-width:800px){
+    .modalTitleAndImage > img{
+    width: 60px;
+}
+
+.modalDescription{
+    font-size: 1rem;
+}
+.modalTitle{
+    font-size:1.2rem;
+    font-weight: bold;
+    
+}
+}
+@media (max-width:575px){
+   .modalContent{
+       width:400px
+   }
+}
+@media (max-width:450px){
+   .modalContent{
+       width:340px
+   }
+   .modalDescription{
+    font-size: 0.8rem;
+}
+.modalTitle{
+    font-size:1rem;
+    font-weight: bold;
+    
+}
+}
+@media (max-width:360px){
+   .modalContent{
+       width:280px
+   }
+}
+

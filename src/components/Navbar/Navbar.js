@@ -4,10 +4,11 @@ import '../../assets/css/global.css';
 import * as  classes from './Navbar.module.css';
 import navbarLogo from '../../assets/images/header/logo.png'
 import { Navbar } from 'react-bootstrap';
-const NavbarMain = () => {
+import clsx from 'clsx';
+const NavbarMain = (props) => {
 
     return (
-        <Navbar collapseOnSelect expand="sm" bg="transparent" variant="dark" className={classes.navbarWrapper}>
+        <Navbar collapseOnSelect expand="sm" bg="transparent" variant="dark" className={clsx(classes.navbarWrapper, props.class)}>
             <div className={classes.navbar}>
                 <Navbar.Brand ><Link to='/'> <img src={navbarLogo} className={classes.logo} alt='KK Marketing' /></Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

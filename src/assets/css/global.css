@@ -29,3 +29,8 @@
     left: 0px !important;
     text-align: center !important;
 }
+.services-page-navbar{
+    position: relative !important;
+    background-color: rgba(220, 0, 0, 0.4) !important;
+    margin-bottom: 40px !important;
+}

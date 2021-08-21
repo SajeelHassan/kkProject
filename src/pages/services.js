@@ -1,17 +1,15 @@
 import React from "react"
+import '../assets/css/global.css';
 import Footer from "../components/Footer/Footer"
-import Hero from "../components/Hero/Hero"
-import HomeInfo from "../components/HomeInfo/HomeInfo"
-import KKGroupSection from "../components/KKGroupSection/KKGroupSection"
-import OurClients from "../components/OurClients/OurClients"
-import ServicesSection from "../components/SevicesCards/ServicesSection"
+import NavbarMain from "../components/Navbar/Navbar"
+import ServicesHeader from "../components/ServicesHeader/ServicesHeader"
+import ServicesMain from "../components/ServicesMain/ServicesMain";
 
 export default function Services() {
     return <>
-        <Hero />
-        <div style={{ maxWidth: '1200px', margin: '200px auto', textAlign: 'center', fontSize: '40px', fontWeight: 'bold' }}>
-            Under Construction
-        </div>
+        <NavbarMain class='services-page-navbar' />
+        <ServicesHeader />
+        <ServicesMain />
         <Footer />
     </>
 }

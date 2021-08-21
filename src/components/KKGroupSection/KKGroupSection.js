@@ -19,7 +19,7 @@ const KKGroupSection = () => {
             <div className={classes.line}></div>
             <div className={classes.sectionInfo}>
                 <img src={logo} alt='KK Group' />
-                <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform</p>
+                <p>Your All in one Marketing agency will make you stand out among the potential competitors with the marketing strategies you need.</p>
             </div>
             <div className={classes.line}></div>
             <div className={classes.sectionCarousel}>
@@ -39,7 +39,7 @@ const KKGroupSection = () => {
             <div className={classes.kkGroup}>
                 <p className={classes.kkGroupTitle}> <span>KK</span> GROUP</p>
                 <div className={classes.horizontalLine} />
-                <p className={classes.kkGroupInfo}>K.K. Rice Mills (Pvt.) Limited was founded with a clear objective to attain and maintain perfection in rice processing, exporting aiming to providing its customers complete satisfaction. K.K. Rice Mills (Pvt.) Limited is managing its name in the leading rice exporters directory almost since the beginning.</p>
+                <p className={classes.kkGroupInfo}>KK helps clients to influence their audience with effective marketing techniques. Through marketing, we shape our customer’s brands worldwide. We have successfully provided Marketing services to our clients that helped them increase their popularity, sales, and Return on investment.</p>
             </div>
         </div>
     )
