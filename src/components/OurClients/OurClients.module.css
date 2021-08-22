@@ -29,3 +29,46 @@
 .carouselInfo img {
     width: 200px;
 }
+
+
+@media (max-width:845px){
+    .carouselInfo img {
+    width: 160px;
+}
+
+}
+@media (max-width:710px){
+    .carouselInfo img {
+    width: 140px;
+}
+
+}
+@media (max-width:595px){
+    .carouselInfo img {
+    width: 120px;
+}
+
+
+}
+@media (max-width:520px){
+    .carouselInfo img {
+    width: 100px;
+}
+
+}
+@media (max-width:520px){
+    .carouselItem{
+        height:500px;
+    }
+    .carouselInfo {
+    max-width:300px;
+    margin:0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.carouselInfo > img {
+    margin-bottom: 1.875rem;
+}
+
+}

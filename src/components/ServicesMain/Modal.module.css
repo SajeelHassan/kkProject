@@ -7,19 +7,12 @@
 }
 .cardModal{
     position: fixed;
-    top:0;
-    left:50%;
-    z-index: 1000;
-    transform: translate(-50%,-50%);
-    opacity: 0.5;
-    transition: all 0.5s ease-in-out;
-}
-.cardModalWrapper:hover .cardModal {
-    opacity: 1;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+    transition: all 3s ease-in-out;
 }
 .modalContent{
     padding: 1.25rem;
@@ -33,7 +26,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: green;
     color:white;
     text-align: center;
 

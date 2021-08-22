@@ -39,8 +39,8 @@ const DATA = [
         image: 'digital-content.png'
     },
     {
-        title: 'Content Writing',
-        description: 'Content is one of the most important pillars to create understanding between you and your audience.   We provide professional content writing services for Websites, Facebook posts and ads, and Blogs.',
+        title: 'Digital PR and KOL Engagement',
+        description: 'Increase awareness about your brand online and reach a broader audience ( by using traditional public relation, content marketing, SEO and social media). Through KOL engagement Key opinion Leaders are involved to improve your Brand’s worth.',
         image: 'content-writing2.png'
     },
     {

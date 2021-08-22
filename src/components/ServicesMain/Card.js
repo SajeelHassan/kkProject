@@ -4,6 +4,7 @@ import * as classes from './Card.module.css';
 import Modal from './Modal';
 
 const Card = ({ imgName, title, description, cardClass }) => {
+
     const [modal, showModal] = useState(false);
 
     const showCardModal = (e) => {

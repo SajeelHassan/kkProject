@@ -9,10 +9,7 @@ import clientLogo6 from '../../assets/images/ourclients/logo6.jpg'
 import clientLogo7 from '../../assets/images/ourclients/logo7.jpg'
 import clientLogo8 from '../../assets/images/ourclients/logo8.jpeg'
 import clientLogo9 from '../../assets/images/ourclients/logo9.jpeg'
-import clientLogo10 from '../../assets/images/ourclients/logo10.jpg'
-import clientLogo11 from '../../assets/images/ourclients/logo11.jpg'
 import clientLogo12 from '../../assets/images/ourclients/logo12.jpg'
-import clientLogo13 from '../../assets/images/ourclients/logo13.jpeg'
 import clientLogo14 from '../../assets/images/ourclients/logo14.jpg'
 import clientLogo15 from '../../assets/images/ourclients/logo15.jpg'
 import clientLogo16 from '../../assets/images/ourclients/logo16.jpg'
@@ -25,37 +22,45 @@ const OurClients = () => {
         <div className={classes.sectionInfo}>
             <p className={classes.sectionTitle}>Our Clients</p>
             <div className={classes.sectionCarousel}>
-                <Carousel controls={false} className='ourClientsCarousel' pause={false} interval={2000}>
+                <Carousel controls={false} className='ourClientsCarousel' interval={2000}>
                     <Carousel.Item>
-                        <div className={classes.carouselInfo}>
-                            <img src={clientLogo6}></img>
-                            <img src={clientLogo14}></img>
-                            <img src={clientLogo15}></img>
-                            <img src={clientLogo16}></img>
+                        <div className={classes.carouselItem}>
+                            <div className={classes.carouselInfo}>
+                                <img src={clientLogo6}></img>
+                                <img src={clientLogo14}></img>
+                                <img src={clientLogo15}></img>
+                                <img src={clientLogo16}></img>
+                            </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className={classes.carouselInfo}>
-                            <img src={clientLogo1}></img>
-                            <img src={clientLogo2}></img>
-                            <img src={clientLogo3}></img>
-                            <img src={clientLogo4}></img>
+                        <div className={classes.carouselItem}>
+                            <div className={classes.carouselInfo}>
+                                <img src={clientLogo1}></img>
+                                <img src={clientLogo2}></img>
+                                <img src={clientLogo3}></img>
+                                <img src={clientLogo4}></img>
+                            </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className={classes.carouselInfo}>
-                            <img src={clientLogo5}></img>
-                            <img src={clientLogo17}></img>
-                            <img src={clientLogo7}></img>
-                            <img src={clientLogo8}></img>
+                        <div className={classes.carouselItem}>
+                            <div className={classes.carouselInfo}>
+                                <img src={clientLogo5}></img>
+                                <img src={clientLogo17}></img>
+                                <img src={clientLogo7}></img>
+                                <img src={clientLogo8}></img>
+                            </div>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className={classes.carouselInfo}>
-                            <img src={clientLogo9}></img>
-                            <img src={clientLogo18}></img>
-                            <img src={clientLogo19}></img>
-                            <img src={clientLogo12}></img>
+                        <div className={classes.carouselItem}>
+                            <div className={classes.carouselInfo}>
+                                <img src={clientLogo9}></img>
+                                <img src={clientLogo18}></img>
+                                <img src={clientLogo19}></img>
+                                <img src={clientLogo12}></img>
+                            </div>
                         </div>
                     </Carousel.Item>
 
