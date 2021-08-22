@@ -1,13 +1,21 @@
 import clsx from 'clsx'
-import React from 'react'
+import React, { useState } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
+import Modal from './Modal'
 import * as classes from './Contact.module.css'
 
 const ContactForm = () => {
-    return (
+    const [modal, showModal] = useState(false);
+
+    const showCardModal = (e) => {
+        e.preventDefault();
+        showModal(true)
+    }
+    return (<>
+        {modal && <Modal modalState={modal} setModal={showModal} />}
         <div className={classes.sectionWrapper}>
             <p className={classes.title}>Contact Us</p>
-            <form id='contact-form' name='contact-us-form' className={classes.formWrap} method='post' data-netlify="true" data-netlify-honeypot="bot-field">
+            <form id='contact-form' name='contact-us-form' className={classes.formWrap} method='post' data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={showCardModal}>
                 <input type="hidden" name="form-name" value="contact-us-form" />
                 <div className={clsx(classes.nameDiv, classes.inputDiv)}>
                     <label for='your-name'>YOUR NAME:</label>
@@ -37,7 +45,7 @@ const ContactForm = () => {
                 <button type='submit' className={classes.submitBtn}>Submit  <span><FaArrowRight /></span></button>
             </form>
         </div>
-    )
+    </>)
 
 }
 export default ContactForm;
