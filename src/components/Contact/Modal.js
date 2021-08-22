@@ -1,14 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import * as classes from './Modal.module.css';
-export default function Modal({ setModal, modalState }) {
-    const closeModal = () => {
-        setModal(false)
-    }
+export default function Modal({ modalState }) {
 
     if (modalState) {
 
-        return ReactDOM.createPortal(<div className={classes.cardModalWrapper} onClick={closeModal} >
+        return ReactDOM.createPortal(<div className={classes.cardModalWrapper} >
 
             <div className={classes.card}>
                 <div className={classes.header}>
