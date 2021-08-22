@@ -24,6 +24,10 @@
 }
 
 @media (max-width:425px){
+    .sectionMain{
+    
+    padding: 0;
+}
     .sectionTitle {
     font-size: 1.5rem;
     font-weight: 500;
