@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .cardHandle {
     position: relative;
@@ -40,6 +41,13 @@
     width: 100%;
 }
 
+.cardHandleWrapper{
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.cardHandleWrapper:hover{
+    transform: scale(110%);
+}
 @media (max-width:900px){
     .handleTitle{
         font-weight: 400;

@@ -2,6 +2,10 @@
     width: 22.5rem;
     height: 26.25rem;
     margin-bottom: 1.875rem;
+    transition: 0.5s ease-out;
+}
+.cardWrap:hover{
+    transform: scale(110%);
 }
 .cardInfo {
     text-align: center;
@@ -23,4 +27,25 @@
 }
 .cardInfo > * {
     margin-bottom: 1.25rem;
+}
+
+@media (max-width:375px){
+    .cardImg{
+        width: 100px;
+    }
+.cardDescription{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#110B36;
+}
+    .cardTitle {
+    
+    font-size: 1.5rem;
+    
+}
+.cardDescription{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    
+}
 }

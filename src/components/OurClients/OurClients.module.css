@@ -26,3 +26,6 @@
     align-items: flex-start;
     height: 300px;
 }
+.carouselInfo img {
+    width: 200px;
+}

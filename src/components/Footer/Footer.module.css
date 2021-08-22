@@ -1,7 +1,7 @@
 .section{
     width: 100%;
     background-color: rgba(255, 150, 150, 0.9);
-    height: 30vh;
+    
     padding-top: 40px;
 }
 .sectionWrapper{
@@ -19,9 +19,13 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.logoTag > img {
+.logoTag {
+    margin: 20px auto;
     max-width: 140px;
+}
+.logoTag > img {
+    width: 100%;
+    text-align: center;
 }
 .logoTag > p{
     font-weight: 700;
@@ -30,8 +34,10 @@
     margin-left: 0;
     margin-right: auto;
 }
-.footerInfo, .footerSocial{
+.footerInfo, .footerSocial,.footerAddress,.footerPhone{
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footerInfo > p , .footerSocial > p{
     color:#C38D9E;
@@ -48,7 +54,9 @@
     width: 1.875rem;
 }
 .footerInfoUL{
+    margin-left:-1.25rem;
     list-style: none;
+    text-align: center;
 }
 .footerInfoUL li {
     padding-bottom: 10px;
@@ -59,6 +67,11 @@
 .footerInfoUL li :hover {
     color: white;
     text-decoration: underline;
+}
+.addressDescription{
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
 }
 .copyrightSection{
     height: 5vh;
@@ -83,6 +96,16 @@
     color: white;
     outline: none;
     border: none;
+}
+.footerSocialAndLogo, .footerAddressAndPhone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.addressTitle{
+    color:#C38D9E;
+    font-size: 30px;
 }
 @media (max-width:800px){
     .section{
