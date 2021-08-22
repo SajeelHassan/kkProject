@@ -19,7 +19,7 @@ const KKGroupSection = () => {
             <div className={classes.line}></div>
             <div className={classes.sectionInfo}>
                 <img src={logo} alt='KK Group' />
-                <p>Your All in one Marketing agency will make you stand out among the potential competitors with the marketing strategies you need.</p>
+                <p>Your all in one Marketing agency to make you stand out among the potential competitors with the marketing strategies you need.</p>
             </div>
             <div className={classes.line}></div>
             <div className={classes.sectionCarousel}>

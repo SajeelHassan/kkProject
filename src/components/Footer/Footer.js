@@ -14,6 +14,10 @@ const Footer = () => {
         <div className={classes.section}>
             <div className={classes.sectionWrapper}>
                 <div className={classes.footerAddressAndPhone}>
+                    <div className={classes.logoTag}>
+                        <img src={logo} alt={logo} />
+                        <p>"You Create, We MARKET"</p>
+                    </div>
                     <div className={classes.footerAddress}>
                         <p className={classes.addressTitle}>Address</p>
                         <p className={classes.addressDescription}>
@@ -21,13 +25,7 @@ const Footer = () => {
                             Islamabad.
                         </p>
                     </div>
-                    <div className={classes.footerPhone}>
-                        <p className={classes.addressTitle}>Phone</p>
-                        <p className={classes.addressDescription}>
-                            +92 582 7443 453 <br/>
-                            +92 317 4288 448
-                        </p>
-                    </div>
+
                 </div>
                 <div className={classes.footerInfo}>
                     <p>Information</p>
@@ -46,19 +44,15 @@ const Footer = () => {
                             <img src={twitter} alt={twitter} />
                         </div>
                     </div>
-                    <div className={classes.logoTag}>
-                        <img src={logo} alt={logo} />
-                        <p>"Growth is our passion"</p>
+                    <div className={classes.footerPhone}>
+                        <p className={classes.addressTitle}>Email</p>
+                        <a className={classes.addressDescription} href="mailto:kkmarketinggroup.pk@gmail.com">
+                            kkmarketinggroup.pk@gmail.com
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <div className={classes.copyrightSection}>
-            <div className={classes.sectionWrapperCopyright}>
-                <p>Copyright © 2021 KK Group All rights reserved.</p>
-                <button onClick={backToTop}>Back to Top</button>
-            </div>
-        </div> */}
     </>)
 
 }

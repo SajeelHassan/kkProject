@@ -11,8 +11,7 @@ const ServicesHeader = () => {
                 </div>
                 <div className={classes.headerInfo}>
                     <p className={classes.sectionTitle}>Our Services</p>
-                    <div className={classes.sectionDescription}><p>Want to step it up on social? Technology is just one piece of the puzzle. With Hootsuite, you’re not just getting the right tools—you’re getting a partner dedicated to boosting your confidence, strengthening your skills, and supporting you every step of the way.<br />We’ve been leading the social media management space since 2008, and we’ve trained 200,000+ marketing pros just like you. Come learn with us.</p></div>
-                    <button className={classes.btn}>Get Started</button>
+                    <div className={classes.sectionDescription}><p>Looking for a single stop that can answer all your marketing questions? You’ve landed on the right place. Our talented and experienced team is capable of providing their services for every type of marketing, be in social, digital or old school marketing.<br />With our services we have helped many businesses to grow, these shinning businesses are our true strength that motivate us to help more and more businesses.</p></div>
                 </div>
             </div>
         </div>

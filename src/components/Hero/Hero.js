@@ -22,7 +22,7 @@ const Hero = () => {
                             src={cImage1}
                             alt="Company Tagline" />
                         <p>
-                            Providing you <span>solutions</span> for your <span>digital marketing</span> assets and fulfilling the necessities of your <span>digital platforms</span>
+                            Providing you <span>services</span> to make your <span>business</span> step up in the game of social media and <span>marketing.</span>
                         </p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Hero = () => {
                             src={cImage3}
                             alt="KK Industries" />
                         <div className={classes.verticalLine} />
-                        <p>kk group of industries is the fastest growing unit of industries across the whole country. KK Marketing is the branch unit installed to maintain all the digital marketing platform </p>
+                        <p className={classes.tagline}>You Create, We MARKET </p>
                     </div>
                 </div>
             </Carousel.Item>

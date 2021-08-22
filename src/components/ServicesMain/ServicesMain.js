@@ -98,9 +98,9 @@ const ServicesMain = () => {
         <div className={classes.sectionWrapper}>
             <div className={classes.sectionMain}>
                 <div className={classes.sectionInfo}>
-                    <p className={classes.sectionTitle}>The unofficial member of your team</p>
+                    <p className={classes.sectionTitle}>Services We Provide</p>
                     <p className={classes.sectionTitleDescription}>
-                        Social doesn’t have to feel complex or confusing, and you don’t have to tackle it on your own. As a Hootsuite Business or Enterprise customer, you’ll automatically get access to our Standard Services.
+                        Go through the list of services we offer to get a clear idea of different aspects through which you can make your business reach its maximum potential.
                     </p>
                 </div>
                 <div className={classes.sectionCards}>

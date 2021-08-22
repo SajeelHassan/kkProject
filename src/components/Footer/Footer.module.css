@@ -1,8 +1,8 @@
 .section{
     width: 100%;
     background-color: rgba(255, 150, 150, 0.9);
-    
     padding-top: 40px;
+    
 }
 .sectionWrapper{
     max-width: 77.5rem;
@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 .sectionWrapper > div {
     width: 25rem;
@@ -20,7 +19,7 @@
     align-items: center;
 }
 .logoTag {
-    margin: 20px auto;
+    /* margin: 20px auto; */
     max-width: 140px;
 }
 .logoTag > img {
@@ -33,6 +32,7 @@
     color: white;
     margin-left: 0;
     margin-right: auto;
+    text-align: center;
 }
 .footerInfo, .footerSocial,.footerAddress,.footerPhone{
     display: flex;
@@ -72,6 +72,11 @@
     color:white;
     font-size: 1.1rem;
     text-align: center;
+    
+}
+.addressDescription:hover{
+    color:white;
+    text-decoration: none;
 }
 .copyrightSection{
     height: 5vh;
@@ -106,6 +111,9 @@
 .addressTitle{
     color:#C38D9E;
     font-size: 30px;
+}
+.footerPhone {
+    margin: 3.75rem auto;
 }
 @media (max-width:800px){
     .section{
